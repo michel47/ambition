@@ -1,0 +1,15 @@
+
+
+
+ServerSignature Off
+#AddDefaultCharset UTF-8
+
+#AuthUserFile %{DOCUMENT_ROOT}/web/ambition-center.ch/intranet/.htpasswd
+AuthUserFile /home/micou/public_html/web/ambition-center.ch/intranet/.htpasswd
+AuthType Basic
+AuthName "Intranet Password Protected Area"
+Require valid-user
+
+#<Files "mypage.html">
+#  Require valid-user
+#</Files>

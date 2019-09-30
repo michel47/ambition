@@ -1,0 +1,31 @@
+Information & Liens Utiles pour BE
+----------------------------------
+
+## Notes Réunions :
+
+ * [notes-reu.txt](notes-reu.htm)
+ * PV & plan d'actions : [GoogleDrive][2]
+
+ * [IT-notes.txt](IT-notes.htm)
+
+
+## Action Items (Tasks)
+
+ * [AItems](AItems.htm)
+
+# Links :
+
+-   Loomio pour nos décision de groupe : [BE/AC][1]
+
+-   Google Drive pour business evolution : [google drive](https://drive.google.com/open?id=1R_pN_VzRnLA9sxKu3JUcAHrS4jGsr-sN)
+-   Calendrier (Booking) : [https://ambition-center.com/booked](https://ambition-center.com/booked/Web/reservation.php)
+
+-   [...](.)
+
+-- \
+
+
+[1]: https://www.loomio.org/g/jxqlEHWR/business-evolution-ac-
+[2]: https://drive.google.com/drive/folders/1qAR-vQrp7UjGEuyKidqsa5Yuhg1WTlVK?usp=sharing
+
+[3]: https://docs.google.com/document/u/1/export?format=txt&id=1L9YfTa0M7JgDiU8IqY3w9XtRjWH0StqOP74nc3PRj7U

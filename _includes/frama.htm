@@ -1,0 +1,16 @@
+Once you made it on the IPFS network this *text*
+will be replaced with the original content for this page
+which is located in the source file
+{% if (page.framaid) %}
+<a class=include href=https://mensuel.framapad.org/p/{{page.framaid}}/export/txt>{{page.framaid}}</a>
+{% else %}
+<a class=include href="#">%frama%</a>
+{% endif %}
+however this file is written in <i>markdown</i> format and will be rendered to everyone who run IPFS,
+<br>so don't wait to enable it, and welcomed to the 4th dimension of our Universe.
+<hr>
+{% capture index %}
+{% include index.md %}
+{% endcapture %}
+{{ index | markdownify }}
+

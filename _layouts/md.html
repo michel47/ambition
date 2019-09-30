@@ -1,0 +1,21 @@
+<!DOCTYPE html><html><head>
+<!--script src=js/showdown.min.js><script!-->
+<meta charset="utf8">
+<title>{{page.title}}</title>
+<link href="../style.css" rel="stylesheet" type="text/css" media="all">
+</head><body>
+<div id="rendered" class=content>
+<h3>/!\ fetching markdown file ...</h3>
+
+{{ content }}
+
+</div>
+<br>
+
+<div id=md style="display:block; background-color: lightblue; opacity:0.7"><!-- write your page here in markdown format -->
+{% include warning.htm %}
+</div><!-- end of page -->
+<br> This page is made for the humanity 4.0 with ♡, its source file is <a class=include href={{page.edit_url}}>here</a>.
+
+<script src=//127.0.0.1:8088/js/md.js href=http://gateway.ipfs.io/ipfs/QmWAf77eQQMT9nxnysA6pak9eHCRABuvddAqBgARKzfdet/js/mdi.js>
+</script>

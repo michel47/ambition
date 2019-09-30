@@ -1,0 +1,83 @@
+body {
+ background-image: URL(../img/guilherme-stecanella-370459-unsplash.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: top;
+ background-size: 100% auto;
+}
+div {
+ font-family: ebrima, arial;
+}
+div#first {
+ display: none;
+}
+#consent {
+    bottom: 1px;
+    text-align: right;
+    position: fixed;
+    right: 0;
+  text-align: right;
+}
+.bubble {
+ /* position: absolute; */
+ border-radius: 50%;
+ border-color: white;
+ border-size: 3px;
+ border-style: solid;
+ top: 40px;
+ width: 180px;
+ height: 180px;
+ margin: center;
+ padding: 2px;
+ text-align: center;
+ z-index: 10;
+ background-color: orange;
+ color: white;
+ font-size: 28px;
+}
+.hry {
+/*
+border-color: red; border-style: inset; 
+*/
+border-width: 0;
+background-color: yellow;
+height: 5px;
+size:5px;
+}
+
+#logo { margin-top: 10px; }
+img#logo { src: "BE/logo-be-t.png"; }
+div.content {
+  top: -15px;
+ background-image: linear-gradient(to bottom left, lightgrey,white,white,lightyellow);
+ opacity: 0.86;
+}
+.layer { display: none; }
+div {
+ position: relative;
+ max-width: 680px;
+ margin-left: 100px;
+ margin: auto;
+
+ /* background-image: linear-gradient(to bottom right, white,darkgrey); */
+ opacity: 0.96;
+
+ padding: 2em;
+ border-radius: 8px;
+ box-shadow:2px 10px 4px rgba(0, 0, 0, 0.40);
+ font-size: 14px;
+ text-align: justify;
+}
+pre { overflow: auto }
+
+@font-face { /* code39 by Dr. David Allais and Ray Stevens of Intermec in 1974. */
+      font-family: "Barcode 39 Text";
+      font-style: normal;
+      font-weight: 400;
+      src: url("https://fonts.gstatic.com/l/font?kit=sJoa3KhViNKANw_E3LwoDXvs5Un0HQ1vT-030Aw50_riSWzIUN2y4R7myIoll_6NvZfoMkH4nprSLcJNkI0ZGl68WskbnJn2rra7Iy_nWZs2AAfeCSkKYKiF4_s16Zi1X6BMAohd4usGxzAYOSpoqFaS0oDRbzdP-SB60JrrGS5y331NyX3pmfdUwSNNOYsYGoFiyQ&skey=a91ebaf074a37bd0&v=v5") format("woff2");
+}
+.bcode39 {
+      font-family: "Barcode 39 Text";
+      font-size: 400%;
+}
+

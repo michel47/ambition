@@ -1,0 +1,40 @@
+# IT meeting minutes
+
+ - next meeting Thursday May 2nd, 2019 @ 17:30 via [whatsapp][wa]
+ - Pietro (MCA) Thursday May 9th, 2019 @ 16:30 (ou 18:00) via [whatsapp][wa]
+
+
+### Overview :
+
+  ![plan](https://web.whatsapp.com/7a0adaf8-fc9b-48bc-87cf-9f8c338aa81e)
+
+  * [pdf](IT-Plan-Document-02.05.19.pdf)
+
+  * algo humain : Rui?, Alex lancy blackbock (brain-stroming)
+  * Sonia + Gilles ... 
+
+  * BCV business model canvas (membership Y,Z, personalisé, 10 coupons)
+  * BioPharmacie
+
+
+### Tasks Status:
+
+ - [x] @Afke : config calendar, room descriptiom, photos etc. (booked)
+ - [ ] @Michel : work on calendar .css to have look and feel of B.E.
+ - [ ] @Michel : reactivate Robain's site (switch w/ .com)
+ - [ ] @all : look at simple "task manager" (a la "todo.txt")
+   & make a proposal next meeting
+
+ - [x] @Michel create a keepass db pour les [mdp] ambitions ([download][1], [tuto][2])
+
+
+### Action Items for next meeting
+
+ - 
+ -
+ - 
+ 
+[1]: https://keepass.info/download.html
+[2]: http://duckduckgo.com/?q=!g+tutorial+keepass
+[wa]: https://chat.whatsapp.com/KKkBTKazHZ35HiROHG3KEl
+[mdp]: http://ambition-center.com/intranet/

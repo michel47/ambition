@@ -1,0 +1,37 @@
+<!DOCTYPE html><html><head>
+<!--script src=js/showdown.min.js><script!-->
+<meta charset="utf8">
+<title>{{page.title}}</title>
+<link href="../style.css" rel="stylesheet" type="text/css" media="all">
+{% if (page.framaid) %}
+<script> var frama = '{{ page.framaid }}'; </script>
+{% endif %}
+</head><body>
+<iframe style="display:none; height:560px;" id=fp name="embed" src="//rond.numerique.ml/human4.0.txt" width=100%></iframe>
+<br>
+<div id="panel" style="color: grey"><!-- --------------------------------------------- -->
+Cette page est collaborativement partagée, chacun de nous peut l'améliorer :
+<br>Pour éditer cette page:
+utilisez
+<input id=edit type=button onClick="toggle('fp')" value=edit>
+ou 
+<a href="#" id=template target=_blank>framapad</a>, puis
+<input type=button onClick="location.reload(true)" value=recharger>
+cette page web.
+</div>
+
+<div id="rendered" class=content>
+<h3>/!\ fetching framapad ...</h3>
+
+{% include frama.htm %}
+
+
+</div><br>
+
+<div id=md style="display:block; background-color: lightblue; opacity:0.7"><!-- write your page here in markdown format -->
+{{ content }}
+</div><!-- end of page -->
+<br> This page is made for the humanity 4.0 with ♡, its source file is <a class=include href="#">here</a>.
+
+<script src=http://127.0.0.1:8088/js/inc-fp.js>
+</script>
